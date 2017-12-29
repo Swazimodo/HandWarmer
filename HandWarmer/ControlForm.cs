@@ -13,7 +13,6 @@ namespace HandWarmer
     public partial class ControlForm : Form
     {
         Stack<Tuple<Task, CancellationTokenSource>> _tasks = new Stack<Tuple<Task, CancellationTokenSource>>();
-        //List<Tuple<Task, CancellationTokenSource>> _tasks = new List<Tuple<Task, CancellationTokenSource>>();
 
         public ControlForm()
         {
