@@ -70,6 +70,8 @@
             this.Controls.Add(this.lMax);
             this.Controls.Add(this.lMin);
             this.Controls.Add(this.tbLevel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "ControlForm";
             this.Text = "Simple Hand Warmer";
             this.Load += new System.EventHandler(this.ControlForm_Load);
